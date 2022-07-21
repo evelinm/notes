@@ -1,10 +1,10 @@
 
 
 
-const SearchBar = () => {
+const SearchBar = ({handleSearchNote}) => {
     return (
         <div className="search">
-<input type="text" placeholder="type to search"/> 
+<input onChange={(e)=>handleSearchNote(e.target.value)} type="text" placeholder="type to search"/> 
 
         </div>
     )
