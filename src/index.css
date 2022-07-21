@@ -34,6 +34,7 @@ code {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  white-space: pre-wrap;
 }
 
 .note.new {
@@ -48,4 +49,19 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: rgb(233, 233, 233);
+  padding: 5px;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.search input {
+  border: none;
+  background-color: rgb(233, 233, 233);
+  width: 100%;
 }

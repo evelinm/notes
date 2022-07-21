@@ -7,7 +7,7 @@ const Note = ({id,text,date}) => {
             <div className="note-foeter">
             <p> {date}</p>
             {/* <MdDeleteForever className="delete-icon" size="1.3rem" /> */}
-            <p> X </p>
+            <button>  Delete X </button>
 
             </div>
         </div>

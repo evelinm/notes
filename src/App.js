@@ -1,5 +1,6 @@
 import NotesList from "./components/NotesList";
 import { useState } from 'react';
+import SearchBar from "./components/SearchBar";
 // import {nanoid} from 'nanoid';
 
 
@@ -66,8 +67,11 @@ function App() {
 
   }
 
+  // const deleteNote = {}
+
   return (
     <div className="container">
+      <SearchBar/>
       <NotesList  handleAddNote={addNote} notes={notes}/>
     </div>
   );
