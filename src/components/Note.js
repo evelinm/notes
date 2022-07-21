@@ -7,6 +7,7 @@ const Note = () => {
             <div className="note-foeter">
             <p> 09/10/1991</p>
             {/* <MdDeleteForever className="delete-icon" size="1.3rem" /> */}
+            <p> X </p>
 
             </div>
         </div>

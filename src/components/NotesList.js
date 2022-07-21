@@ -7,6 +7,12 @@ const NotesList = () => {
     <div className="notes-list">
         Notes list
         <Note/>
+        <Note/>
+        <Note/>
+        <Note/>
+        <Note/>
+        <Note/>
+
     </div>
 
     )
