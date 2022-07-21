@@ -54,7 +54,16 @@ function App() {
 
 
   const addNote = (text) => {
-    console.log(text)
+    const date = new Date();
+    const newNote = {
+      id: 9,
+      text: text,
+      date: date.toLocaleDateString()
+    }
+
+    const newNotes = [...notes, newNote]
+    setNotes(newNotes)
+
   }
 
   return (
